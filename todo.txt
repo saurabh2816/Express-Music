@@ -1,0 +1,5 @@
+0. add footer
+1. Fill the class="sidebar-title with something.
+2. Add evernotes notes as notes tab in the website - to show you actually researched while making the project
+3. change maincontent.ejs to helpful links and use bootstrap (https://www.w3schools.com/bootstrap/bootstrap_tables.asp)
+4. change style.css speakerslist to bandslist and similar changes.

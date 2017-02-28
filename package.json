@@ -1,0 +1,16 @@
+{
+  "name": "expressmusic",
+  "version": "1.0.0",
+  "description": "Website of my favorite artists build using Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js --ignore feedback.json"
+  },
+  "author": "Saurabh",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "reload": "^1.1.1"
+  }
+}

@@ -1,0 +1,13 @@
+json validator
+http://jsonlint.com
+
+convert a normal string including newlines, quotes and unicode characters into a quoted string literal ready to use in your JSON
+http://bernhardhaeussner.de/odd/json-escape/
+
+getting started with EJS (EJS has a very bad documentation so a google search is the best way to learn)
+https://medium.freecodecamp.com/how-to-use-ejs-templating-in-a-node-js-application-ea9347a96c65#.gjc1ztwxp [most helpful]
+http://www.embeddedjs.com/getting_started.html
+https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433#.pjqb3ndpr
+
+add \n to new lines while taking data from web and adding to json file
+https://www.gillmeister-software.com/online-tools/text/remove-line-breaks.aspx

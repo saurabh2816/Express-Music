@@ -1,0 +1,40 @@
+<article class="speakerslist <% if (pageID == 'home') { %>jumbotron hidden-xs <%} %>" >  <!-- if xs(small screen) then hide this else show on medium and big -->
+  <div class="container">
+    <div class="row">
+      <% bands.forEach(function(item) { %> <!--I have the bands variable from res.render in bands.js -->
+        <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% }  else { %>col-sm-8 <% } %>">
+
+          <h3 class="speakerslist-title"><a href="/bands/<%= item.shortname %>"><%= item.title %></a></h3>
+          <h5 class="speakerslist-name">with <%= item.name%></h5>
+          <p class="speakerslist-info">
+            <a href="/bands/<%= item.shortname %>">
+
+            <% if (pageID == 'home') { %>
+            <img class="speakerslist-img img-circle" src="/images/bands/<%= item.shortname %>.jpg" alt="<%= item.title %>"></a>
+            <% } %>
+
+            <% if (pageID == 'speakerList') { %>
+            <img class="speakerslist-img img-circle pull-left" src="/images/bands/<%= item.shortname %>.jpg" alt="<%= item.title %>" style=" padding: 0px 10px;"></a>
+            <% } %>
+
+
+            <% if (pageID == 'speakerDetail') { %>
+            <img class="speakerslist-img img-responsive pull-left" src="/images/new/<%= item.shortname %>.jpg" alt="<%= item.title %>" style="padding-bottom: 20px;"></a>
+            <% } %>
+
+            <p class='speaker-description'style=" text-align: justify;">
+            <% if (pageID !== 'home') { %>
+              <% if (pageID == 'speakerList'){ %>
+                <%- item.summary %>
+              <% } else { %>
+                <h3 class="speakerslist-name">History</h3>
+              <%- item.history %>
+            <% } %>
+            <% } %>
+            </p>
+        </p>
+        </div>
+      <%  }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>
