@@ -4,8 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background: url(../images/misc/background.png);
-
+  background-color: #FDF3E7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +48,7 @@ header .jumbotron {
 /**  Navbar **/
 
 header .navbar {
-  background: #289d96; /*CF5565 */
+  background: #C63D0F; /*CF5565 */
   margin-bottom: 0;
   border-radius: 0;
   font-family: "Roboto", sans-serif;
@@ -153,7 +152,7 @@ header .navbar-inverse .navbar-nav>li>a {
 
 .jumbotron {
   padding: 20px 0;
-  background-color: #FFEB8B;
+  background-color: #404040;
 }
 
 /**  chat-display **/
