@@ -9,8 +9,8 @@ This website is a practical implementation of my Node.js and Express.js learning
 
 ## My learnings
 
-**Consistent routing to modules **
-**Making exact view behave differently depending of where it is inserted **
+**Consistent routing to modules**
+**Making exact view behave differently depending of where it is inserted**
 **Using middleware**
 **Using client-side templating language - EJS**
 **Building flexible views**
